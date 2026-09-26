@@ -1,0 +1,21 @@
+{
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_JARVIS_WEB_URL": "https://jarvishud-wmuh6urn.manus.space"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_JARVIS_WEB_URL": "https://jarvishud-wmuh6urn.manus.space"
+      }
+    }
+  }
+}

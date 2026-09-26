@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "J.A.R.V.I.S. Mobile Command",
+    "slug": "jarvis-mobile-command",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "jarvismobile",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#071421"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jarvis.mobilecommand"
+    },
+    "android": {
+      "package": "com.jarvis.mobilecommand",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#071421",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.VIBRATE",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.SCHEDULE_EXACT_ALARM"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-notifications",
+      "expo-secure-store",
+      "expo-speech-recognition"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "jarvisWebUrl": "https://jarvishud-wmuh6urn.manus.space"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "jarvis-mobile-android-v2",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo": "~57.0.25",
+    "expo-haptics": "~57.0.3",
+    "expo-intent-launcher": "~57.0.1",
+    "expo-linking": "~57.0.11",
+    "expo-notifications": "~57.0.21",
+    "expo-secure-store": "~57.0.4",
+    "expo-speech": "~57.0.3",
+    "expo-speech-recognition": "^57.1.0",
+    "expo-status-bar": "~57.0.1",
+    "lucide-react-native": "^1.48.0",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-svg": "^15.15.5"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "private": true
+}
